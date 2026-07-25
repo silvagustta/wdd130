@@ -12,22 +12,27 @@ body {
 
 header {
     display: grid;
-    grid-template-columns: 200px 1fr;
+    grid-template-columns: 400px 5fr 1fr;
     align-items: center;
     padding: 20px;
     background: #0a6ebd;
 }
 
 header img {
+    display: flex;
+    justify-self: center;
     width: 120px;
 }
 
 nav {
     display: flex;
-    justify-content: space-evenly;
+    justify-items: end;
+    justify-content: space-between;
+    grid-template-columns: ;
 }
 
 nav a {
+    justify-self: center;
     text-decoration: none;
     color: white;
     font-weight: bold;
