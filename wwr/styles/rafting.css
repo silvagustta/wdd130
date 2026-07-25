@@ -28,13 +28,12 @@ nav {
     display: flex;
     justify-items: end;
     justify-content: space-between;
-    grid-template-columns: ;
 }
 
-nav a {
+h2 {
     justify-self: center;
     text-decoration: none;
-    color: white;
+    color: black;
     font-weight: bold;
     font-size: 18px;
 }
@@ -59,7 +58,7 @@ nav a {
     font-size: 2.5rem;
 }
 
-.hero article {
+.hero h2 {
     position: absolute;
     bottom: 40px;
     left: 50%;
@@ -69,7 +68,7 @@ nav a {
     padding: 20px;
 }
 
-.hero article img {
+.hero h2 img {
     float: right;
     width: 180px;
     margin-left: 20px;
