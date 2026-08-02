@@ -1,12 +1,8 @@
 :root {
-    --primary-color: royalblue;
-    /* forest green */
-    --secondary-color: #f4a261;
-    /* warm send */
+    --primary-color: #0088a3;
+    --secondary-color: #b8d8d8;
     --accent1-color: #264653;
-    /*dark slate blue*/
     --accent2-color: #e9c46a;
-    /* light golden yellow*/
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -142,20 +138,20 @@ footer {
     align-items: center;
     background-color: var(--secondary-color);
     color: var(--accent1-color);
-    padding: 20px;
+    padding: 35px;
 }
 
 footer p {
-    margin: 0;
+    margin: 0 auto;
 }
 
 .socialmedia {
     position: absolute;
-    right: 20px;
+    right: 10px;
     display: flex;
-    gap: 15px;
+    gap: 5px;
 }
 
 .socialmedia img {
-    width: 40px;
+    width: 35px;
 }
