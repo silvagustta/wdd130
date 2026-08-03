@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us | White Water Rafting</title>
+    <title>Contact | Black Water rafting</title>
     <meta name="description"
-      content="Learn more about White Water Rafting Adventures. Here you can find the fun time you need for your holiday with your family and friends.">
+      content="contact us and schedule to visit our rafting and have fun summer trip in brazil.">
     <meta name="author" content="Gustavo Silva">
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
@@ -24,28 +24,84 @@
 
     <main>
         <div class="hero">
-            <h1>Black Water rafting</h1>
-            <article>
-                <img src="images/happy-client.jpg" alt="Happy Client">
-            </article>
+            <h1>Contact Us</h1>
         </div>
 
+        <section class="company-info">
+            <h2>Company Information</h2>
 
-        <section class="adventures">
+            <p>250 River Canyon Road</p>
+            <p>Moab, Utah 84532</p>
+            <p>+1 (435) 555-0123</p>
+            <p>contact@blackwaterrafting.com</p>
+        </section>
+
+        <section class="contact-info">
+            <div class="map">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d10488.090648830492!2d-109.58638995847232!3d38.599923878845445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1785703978256!5m2!1spt-BR!2sbr"
+                  width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            </div>
+            <div class="contact-form">
+                <form>
+                    <div class="form-row">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-row">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-row">
+                        <span>Message Purpose</span>
+
+                        <div class="radio-group">
+                            <label><input type="radio" name="purpose"> General Inquiry</label>
+                            <label><input type="radio" name="purpose"> Reservation Question</label>
+                            <label><input type="radio" name="purpose"> Website Suggestion</label>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <label for="message">Message</label>
+                        <textarea id="message" placeholder="Type Here..."></textarea>
+                    </div>
+
+                    <div class="newsletter">
+                        <label>
+                            <input type="checkbox">
+                            Please subscribe me to the monthly newsletter
+                        </label>
+                    </div>
+
+                    <button type="submit">Get in Touch!</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="employees">
             <h2>We Are Here to Serve You</h2>
-
             <div class="gallery">
                 <figure>
-                    <img src="images/rafting2.jpg" alt="Big Mallard">
-                    <figcaption>Big Mallard</figcaption>
+                    <img src="images/rafting2.jpg" alt="Emily Reyes">
+                    <figcaption>Emily Reyes<br>
+                        Safety Instructor
+                    </figcaption>
                 </figure>
                 <figure>
-                    <img src="images/rafting4.jpg" alt="Rapid Rush">
-                    <figcaption>Rapid Rush</figcaption>
+                    <img src="images/rafting4.jpg" alt="Joseph Silva">
+                    <figcaption>Joseph Silva<br>
+                        River Guide
+                    </figcaption>
                 </figure>
                 <figure>
-                    <img src="images/rafting5.jpg" alt="Wild River">
-                    <figcaption>Wild River</figcaption>
+                    <img src="images/rafting5.jpg" alt="Peter Smith">
+                    <figcaption>Peter Smith<br>
+                        River Guide
+                    </figcaption>
                 </figure>
             </div>
         </section>
@@ -57,7 +113,7 @@
                 ©2026 White Water Rafting | Gustavo da Silva
             </p>
 
-            <nav class="socialmedia">
+            <div class="socialmedia">
                 <a href="https://facebook.com">
                     <img src="images/facebook.svg" alt="Facebook">
                 </a>
@@ -67,7 +123,7 @@
                 <a href="https://x.com">
                     <img src="images/twitter.svg" alt="Twitter">
                 </a>
-            </nav>
+            </div>
         </nav>
     </footer>
 </body>
