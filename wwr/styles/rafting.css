@@ -1,3 +1,4 @@
+/* about */
 :root {
     --primary-color: #0088a3;
     --secondary-color: #b8d8d8;
@@ -152,6 +153,7 @@ footer p {
     width: 35px;
 }
 
+/* contact us */
 h1 {
     text-align: center;
     font-size: 45px;
@@ -256,4 +258,96 @@ button {
     border: 1px solid #ccc;
     padding: 20px;
     text-align: center;
+}
+
+/* index */
+
+.about {
+    background-color: var(--primary-color);
+    padding: 70px 0 100px;
+}
+
+.image-container {
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.image-container img {
+    width: 65%;
+    display: block;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
+}
+
+.text-box {
+    position: absolute;
+    width: 45%;
+    top: 15%;
+    right: -5%;
+
+    padding: 30px;
+
+    text-align: center;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
+
+    background-color: var(--accent1-color);
+    color: white;
+}
+
+.text-box h2 {
+    margin-top: 0;
+}
+
+.text-box p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.text-box button {
+    background-color: var(--primary-color);
+    border: none;
+    padding: 10px 25px;
+    border-radius: 3px;
+}
+
+.adventure-banner {
+    background-image: url("../images/hero-2.png");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+.adventure-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.adventure-content h2 {
+    color: white;
+    font-size: 40px;
+    margin: 0 0 15px;
+}
+
+.adventure-content p {
+    color: white;
+    font-size: 18px;
+    margin: 0 0 20px;
+}
+
+.adventure-content button {
+    width: auto !important;
+    background-color: var(--primary-color);
+    color: #000;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 3px;
 }
